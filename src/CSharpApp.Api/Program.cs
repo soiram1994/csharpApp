@@ -1,8 +1,3 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.UseSerilog(new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger());
@@ -10,7 +5,7 @@ builder.Host.UseSerilog(new LoggerConfiguration().ReadFrom.Configuration(builder
 builder.Configuration.AddEnvironmentVariables();
 
 // Add services to the container.
-builder.Services.AddDefaultConfiguration();
+builder.Services.AddDefaultConfiguration(builder.Configuration);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
