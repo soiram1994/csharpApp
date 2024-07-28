@@ -1,5 +1,3 @@
-using System.Threading.Tasks;
-
 namespace CSharpApp.Core.Interfaces;
 
 public interface ITodoService

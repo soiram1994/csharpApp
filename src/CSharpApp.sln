@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpApp.Infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpApp.Application", "CSharpApp.Application\CSharpApp.Application.csproj", "{C73BB0C1-5F7C-403B-BCDC-5BAA35699633}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6E79BE9E-792B-4AA0-827C-75E229B80DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpApp.Tests", "..\tests\CsharpApp.Tests\CsharpApp.Tests.csproj", "{F540168A-8988-4214-95F8-25F46E5B3D74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,7 @@ Global
 		{70CBF7AF-E3DD-4C4D-9694-D9C8CB470DE0} = {C2A57CA7-93E7-4291-B815-C605B58AF943}
 		{2A0F96CE-4BC1-41BC-B694-5B00346FC48E} = {C2A57CA7-93E7-4291-B815-C605B58AF943}
 		{C73BB0C1-5F7C-403B-BCDC-5BAA35699633} = {C2A57CA7-93E7-4291-B815-C605B58AF943}
+		{F540168A-8988-4214-95F8-25F46E5B3D74} = {6E79BE9E-792B-4AA0-827C-75E229B80DFC}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E02B4A9A-0FFE-40AB-8822-93E1C2862FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +43,9 @@ Global
 		{C73BB0C1-5F7C-403B-BCDC-5BAA35699633}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C73BB0C1-5F7C-403B-BCDC-5BAA35699633}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C73BB0C1-5F7C-403B-BCDC-5BAA35699633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F540168A-8988-4214-95F8-25F46E5B3D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F540168A-8988-4214-95F8-25F46E5B3D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F540168A-8988-4214-95F8-25F46E5B3D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F540168A-8988-4214-95F8-25F46E5B3D74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
